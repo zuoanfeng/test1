@@ -1,0 +1,12 @@
+1、weights 下提供了检测模型Yolo11,用于检测人
+2、该代码也能训练，修改train.py的一些参数，具体见train.py  在运行train.py即可
+3、运行detect.py可显示UI界面，需要提前配置环境
+
+
+配置环境说明：
+（1）首先你要有pytorch环境（CPU和GPU均可），如下：
+torch
+torchvision
+torchaudio
+（2）安装一些包:
+具体包名和版本在requirements.txt，可以直接pip install -r requirements.txt
